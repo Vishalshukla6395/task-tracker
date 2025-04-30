@@ -1,0 +1,17 @@
+node_modules/
+.pnp/
+.pnp.js
+
+.env*
+
+build/
+dist/
+coverage/
+
+logs/
+*.log
+
+.DS_Store
+
+.vscode/
+.idea/

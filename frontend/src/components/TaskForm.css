@@ -1,0 +1,41 @@
+.task-form {
+  animation: fadeIn 0.3s ease;
+}
+
+.form-row {
+  display: flex;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.form-actions {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 60px;
+}
+
+select.form-control {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23475467' viewBox='0 0 16 16'%3E%3Cpath d='M8 11a.5.5 0 0 1-.354-.146l-4.5-4.5a.5.5 0 0 1 .708-.708L8 9.793l4.146-4.147a.5.5 0 0 1 .708.708l-4.5 4.5A.5.5 0 0 1 8 11z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  padding-right: 2.5rem;
+}
+
+@media (max-width: 576px) {
+  .form-row {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+}
